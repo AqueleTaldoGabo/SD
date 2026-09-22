@@ -43,7 +43,7 @@ class ServidorSocket:
     def run(self):
         jogo = JogoDaVelha()
         s = socket(AF_INET, SOCK_STREAM)
-        s.bind(('0.0.0.0', 5000)) 
+        s.bind(('0.0.0.0', 5001)) 
         s.listen(2)
         
         print("Aguardando Jogador 1...")

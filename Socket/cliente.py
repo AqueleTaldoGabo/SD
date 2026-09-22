@@ -3,8 +3,8 @@ from socket import socket, AF_INET, SOCK_STREAM
 class ClienteSocket:
     def run(self):
         s = socket(AF_INET, SOCK_STREAM)
-        HOST = "127.0.0.1"
-        PORT = 5000
+        HOST = "192.168.156.10"
+        PORT = 5001
         
         s.connect((HOST, PORT))
 
