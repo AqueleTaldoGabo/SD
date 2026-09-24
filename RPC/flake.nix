@@ -14,6 +14,7 @@
         buildInputs = [
           pkgs.capnproto
           pkgs.gcc
+          pkgs.pkg-config
         ];
 
         shellHook = ''
